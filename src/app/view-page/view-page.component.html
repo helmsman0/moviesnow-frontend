@@ -1,0 +1,30 @@
+<nav class="navbar">
+    <h2 class="logo">Movies<span>Now</span></h2>
+    <a class="back" href="#">Back to <span class="text-danger">collection</span></a>
+    <!-- <button type="button" >return</button> -->
+</nav>
+<div >
+    <div class="row">
+        <div class="d1 col-lg-5">
+            <!-- <h1 class="heading">Here your Fav</h1> -->
+            <img class="img" [src]="films.Poster" alt="">
+     </div>
+     <div class="d2 col-lg-7">
+        <h2 class="heading">Your<span class="spa-1">fav one :</span> </h2>
+        <div class="heading-1">
+                <ul class="list">
+                    <li class="li">Title : {{films.Title}} </li>
+                    <li class="li">Released : {{films.Released}} </li>
+                    <li class="li">Genre : {{films.Genre}}</li>
+                    <li class="li">Director : {{films.Director}} </li>
+                    <li class="li">Writer : {{films.Writer}} </li>
+                    <li class="li">Actors : {{films.Actors}} </li>
+                    <li class="li">Language : {{films.Language}} </li>
+                    <li class="li">Awards : {{films.Awards}} </li>
+                    <li class="li">Production : {{films.Production}} </li>
+                </ul>
+        </div>
+     </div>
+  </div>
+</div>
+  

@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.movies{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,2.2),rgba(0,0,0,0.1)),url('https://townsquare.media/site/295/files/2022/07/attachment-Franchise-collage.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo{
+    color: blue;
+    font-size: 40;
+    margin-left: 20px;
+    margin-right: 800px;
+}
+span{
+    color: red;
+}
+nav ul li{
+    list-style-type: circle;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: rgb(209, 10, 10);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: .2s;
+}
+.h1{
+    color: white;
+    text-decoration: white;
+    align-items: center;
+    justify-content: center;
+    margin-left: 550px;
+}
+
+.search-text{
+    color: white;
+}
+.search-box{
+    margin-left: 500px;
+    margin-right: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: rgb(55, 13, 241);
+    border-radius: 20px;
+    box-shadow:  0 10px 25px rgba(0, 0, 0, 0.3)
+}
+.search-box:hover input{
+    width: 200px;
+    color: rgb(0, 0, 0);
+}
+.search-box input{
+    width: 0;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.5s;
+    background: transparent;
+}
+.search-box a .fas{
+    color: rgb(233, 233, 238);
+    font-size: 18px;
+}
+.card{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.card img{
+    height: 300px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: larger;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+

@@ -1,0 +1,118 @@
+/* 
+.services::before {
+        content: "";
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: linear-gradient(45deg, rgb(26, 37, 25), rgb(155, 196, 212));
+        animation: gradientAnimation 10s ease infinite;
+        z-index: -1;
+    } */
+
+    .container-1{
+        background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('https://i0.wp.com/www.socialnews.xyz/wp-content/uploads/2019/12/02/Best-Hollywood-Movies-From-2019-Editors-Choice-scaled.jpg?quality=80&zoom=1&ssl=1');
+        background-size: cover;
+        background-position: center;
+    }
+    .heading{
+        color: #f7f7f7;
+        position: relative;
+        color: blue;
+        font-size: 5vw;
+        font-family: Arial, Helvetica, sans-serif;
+        animation: animateText 2s ease-in-out infinite;
+    }
+    
+@keyframes animateText {
+    0% {
+      top: -10px;
+      opacity: 0;
+    }
+    50% {
+      top: 10px;
+      opacity: 1;
+    }
+    100% {
+      top: -10px;
+      opacity: 0;
+    }
+  }
+
+    nav{
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        margin-top: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .logo{
+        color: blue;
+        font-size: 40;
+        margin-left: 20px;
+        margin-right: 800px;
+    }
+    span{
+        color: red;
+    }
+    nav ul li{
+        list-style-type: circle;
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    nav ul li a{
+        color: rgb(209, 10, 10);
+        text-decoration: none;
+        font-weight: bold;
+    }
+    nav ul li a:hover{
+        color: blue;
+        transition: .2s;
+    }
+.contact {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: white;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+  
+  .contact-details {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .contact-item {
+    margin: 0 20px;
+    text-align: center;
+  }
+  
+  .contact-item i {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-item p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+  
